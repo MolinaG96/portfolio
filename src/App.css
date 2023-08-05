@@ -1,4 +1,15 @@
 body {
-  background-image: url("./assets/mountain.png");
+  background-image: url("./assets/fondo.png");
   background-size: cover;
+}
+
+.boton-madera-img {
+  width: 100px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* La altura se ajustará automáticamente proporcionalmente */
+  margin: 20px 0px;
+}
+
+.soga-img {
+  width: 1000px;
+  height: auto;
 }
