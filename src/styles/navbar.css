@@ -6,6 +6,8 @@
   margin-right: 0;
   display: flex;
   justify-content: flex-end;
+  left: 0;
+  transition: left 0.3s ease-in-out;
 }
 
 .madera {
@@ -40,4 +42,8 @@
   width: 100%;
   height: auto;
   z-index: -1;
+}
+
+.navbar-container.hidden {
+  left: 75%;
 }
