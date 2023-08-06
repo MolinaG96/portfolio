@@ -1,15 +1,26 @@
 body {
+  margin: 0;
+  padding: 0;
   background-image: url("./assets/fondo.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.boton-madera-img {
-  width: 100px; /* Ajusta el ancho según tus necesidades */
-  height: auto; /* La altura se ajustará automáticamente proporcionalmente */
-  margin: 20px 0px;
+.nombre {
+  position: absolute;
+  top: 10vh;
+  left: 38vw;
+  font-family: "sifonnbasic_outline";
+  text-align: center;
+  color: #885b38;
+  font-size: 600%;
 }
 
-.soga-img {
-  width: 1000px;
-  height: auto;
+.nombre span {
+  display: block;
+}
+
+.profession {
+  font-size: 30%;
+  color: black;
 }

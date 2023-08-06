@@ -10,14 +10,6 @@
   transition: left 0.3s ease-in-out;
 }
 
-.madera {
-  position: absolute;
-  top: -8px;
-  width: 160px;
-  height: auto;
-  z-index: 20;
-}
-
 .mano {
   position: absolute;
   left: 0%;
