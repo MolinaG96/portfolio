@@ -1,0 +1,8 @@
+.letrero {
+  position: absolute;
+  z-index: 5m;
+  top: 0;
+  left: 40%;
+  width: 52vw;
+  height: auto;
+}
