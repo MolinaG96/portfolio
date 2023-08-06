@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/button.css";
-
 import madera from "../assets/boton-madera.png";
 
 const Button = ({ length, title, lengthText }) => {

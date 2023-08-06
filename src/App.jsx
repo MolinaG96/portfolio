@@ -1,8 +1,7 @@
 import "./App.css";
-import botonMadera from "./assets/boton-madera.png";
-import soga from "./assets/soga-nada-sinF.png";
 import Navbar from "./components/Navbar";
 import "./assets/fonts/sifonn/nuevo-sifonn/sifonn/stylesheet.css";
+import Sign from "./commons/sign";
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
         <span>Molina</span>
         <span className="profession">Full Stack Developer</span>
       </h1>
+      <Sign />
     </div>
   );
 }
