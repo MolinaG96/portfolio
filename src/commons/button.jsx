@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "../styles/button.css";
 import madera from "../assets/boton-madera.png";
 
-const Button = ({ length, title, lengthText }) => {
+const Button = ({ length, title, lengthText, setSelectedButton }) => {
   return (
-    <div>
+    <div onClick={() => setSelectedButton(title)}>
       <img
         src={madera}
         alt="Madera"
