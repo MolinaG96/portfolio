@@ -4,11 +4,13 @@ import mano from "../assets/mano.png";
 import soga from "../assets/soga-nada-sinF.png";
 import Button from "../commons/button";
 
-const Navbar = ({ setSelectedButton }) => {
+const Navbar = ({ setSelectedButton, setIsVisible }) => {
   const [isNavbarHidden, setIsNavbarHidden] = useState(true);
 
   const toggleNavbar = () => {
     setIsNavbarHidden(!isNavbarHidden);
+    setIsVisible(false);
+    setSelectedButton("Home");
   };
 
   return (

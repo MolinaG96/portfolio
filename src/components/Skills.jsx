@@ -1,11 +1,11 @@
 import React from "react";
 import Sign from "../commons/sign";
 import "../styles/skills.css";
+import "../styles/container.css";
 
-export const Skills = ({ visible }) => {
-  let isVisible = visible;
+export const Skills = () => {
   return (
-    <div className={isVisible ? "skills-father" : "skills-father-exit"}>
+    <div className="skills-div-father">
       <Sign />
       <div className="skills-div">Skills</div>
     </div>
