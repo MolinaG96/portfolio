@@ -1,14 +1,11 @@
 .letrero {
   position: absolute;
   z-index: 5m;
-  top: 0;
-  left: 40%;
   width: 52vw;
   height: auto;
-  transition: 1s ease;
 }
 
-.letreront {
+/* .letreront {
   position: absolute;
   z-index: 5m;
   top: -100%;
@@ -16,4 +13,4 @@
   width: 52vw;
   height: auto;
   transition: 1s ease;
-}
+} */
