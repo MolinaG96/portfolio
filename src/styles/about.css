@@ -1,0 +1,40 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-800px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIntoTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-800px);
+  }
+}
+
+.about-father {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  animation: slideInFromTop 1s ease;
+}
+
+.about-father-exit {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  animation: slideIntoTop 1s ease;
+}
+
+.about-div {
+  position: absolute;
+  left: 16vw;
+  top: 15vw;
+  z-index: 30;
+  font-size: 100px;
+  transition: 1s ease;
+}
