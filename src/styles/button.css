@@ -1,19 +1,18 @@
 .madera {
   position: absolute;
-  top: -8px;
-  width: 160px;
+  top: -0.8vh;
+  width: 11.7vw;
   height: auto;
   z-index: 20;
 }
 
 .texto {
   position: absolute;
-  top: 2vh;
+  top: 2.4vh;
   margin: 0;
   z-index: 100;
-  font-size: 32px;
+  font-size: 2.3vw;
   font-weight: bold;
-  /* font-family: "Arapey", sans-serif; */
   color: #f4d79e;
   z-index: 20;
 }

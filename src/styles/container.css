@@ -1,6 +1,6 @@
 @keyframes slideInFromTop {
   0% {
-    transform: translateY(-800px);
+    transform: translateY(-1000px);
   }
   100% {
     transform: translateY(0);
@@ -12,7 +12,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-800px);
+    transform: translateY(-1000px);
   }
 }
 
