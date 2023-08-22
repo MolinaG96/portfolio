@@ -1,8 +1,14 @@
+@font-face {
+  font-family: "Woodys";
+  src: url("../assets/fonts/wood/woodys/Woodys.ttf") format("truetype");
+}
+
 .contact-div {
-  position: relative;
-  left: 16vw;
+  position: absolute;
+  left: 10.9vw;
   top: 15vw;
   z-index: 30;
-  font-size: 100px;
-  transition: 1s ease;
+  font-size: 6vw;
+  font-family: "Woodys", sans-serif;
+  color: #451f0a;
 }

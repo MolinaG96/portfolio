@@ -1,6 +1,24 @@
+@keyframes slideIntoRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideOutFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .navbar-container {
   position: relative;
-  margin-top: 40px;
+  margin-top: 5vh;
   max-width: 82vw;
   margin-left: auto;
   margin-right: 0;
@@ -8,12 +26,14 @@
   justify-content: flex-end;
   left: 0;
   transition: left 0.3s ease-in-out;
+  /* animation: slideOutFromRight 1s forwards; */
 }
 
 .mano {
   position: absolute;
-  left: 0%;
-  width: 80px;
+  left: -1.8vw;
+  top: 0.6vh;
+  width: 5vw;
   height: auto;
   z-index: 15;
 }
@@ -21,7 +41,7 @@
 .soga-top {
   position: absolute;
   left: 0;
-  top: 25px;
+  top: -2vh;
   width: 100%;
   height: auto;
   z-index: 10;
@@ -30,7 +50,7 @@
 .soga-bottom {
   position: absolute;
   left: 0;
-  top: -17px;
+  top: 3vh;
   width: 100%;
   height: auto;
   z-index: 10;
@@ -38,4 +58,6 @@
 
 .navbar-container.hidden {
   left: 75%;
+  /* animation: slideIntoRight 1s ease, slideOutFromRight 1s forwards; /* Cambiado a slideOutFromRight */
+  /* animation-direction: reverse; */
 }
