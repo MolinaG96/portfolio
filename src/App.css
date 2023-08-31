@@ -27,7 +27,7 @@ body {
 
 .nombre {
   position: absolute;
-  top: 18.5vw;
+  top: 33vh;
   left: 52.8vw;
   transform: translate(-50%, -65%);
   font-family: "sifonnbasic_outline";
