@@ -16,14 +16,14 @@
 .slider {
   position: absolute;
   left: 9.2vw;
-  top: 38.5vh;
+  top: 38vh;
   z-index: 31;
-  max-width: 33vw;
+  width: 33vw;
+  height: 40vh;
 }
 
 .slider-image {
-  width: 100%;
-  width: 40vw;
-  height: 37vh;
+  width: 33vw;
+  height: 40vh;
   display: block;
 }
