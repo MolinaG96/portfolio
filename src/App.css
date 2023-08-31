@@ -6,15 +6,35 @@ body {
   background-repeat: no-repeat;
 }
 
+@keyframes growText {
+  from {
+    font-size: 0vw; /* Tamaño inicial */
+  }
+  to {
+    font-size: 7vw; /* Tamaño deseado */
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .nombre {
   position: absolute;
-  top: 10%;
-  left: 38.2%;
+  top: 18.5vw;
+  left: 52.8vw;
+  transform: translate(-50%, -65%);
   font-family: "sifonnbasic_outline";
   text-align: center;
   color: #885b38;
   font-size: 7vw;
   z-index: -1;
+  animation: growText 3s forwards;
 }
 
 .nombre span {
@@ -24,4 +44,8 @@ body {
 .profession {
   font-size: 30%;
   color: black;
+}
+
+.invisible {
+  animation: fadeOut 1s forwards;
 }

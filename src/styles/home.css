@@ -1,7 +1,17 @@
-/* .sign-content {
+.marcoD {
   position: absolute;
-  right: 22vw;
-  top: 15vw;
-  z-index: 30;
-  font-size: 100px;
-} */
+  z-index: 100;
+  right: 0;
+  top: 0;
+  width: 2.15vw;
+  height: 90vh;
+}
+
+.marcoT {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 0;
+  width: 98vw;
+  height: 3.9vh;
+}

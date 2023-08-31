@@ -7,6 +7,8 @@ import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Contact } from "./Contact";
 import { Container } from "./Container";
+import marcoD from "../assets/marcoDE.png";
+import marcoT from "../assets/marcoTE.png";
 
 function Home() {
   const [selectedButton, setSelectedButton] = useState("Home");
@@ -25,7 +27,13 @@ function Home() {
   return (
     <div>
       <Navbar setSelectedButton={changeComponent} setIsVisible={setIsVisible} />
-      <h1 className="nombre">
+      <div className="image-marcoD">
+        <img src={marcoD} alt="marcoD" className="marcoD" />
+      </div>
+      <div className="image-marcoT">
+        <img src={marcoT} alt="marcoT" className="marcoT" />
+      </div>
+      <h1 className={`nombre ${selectedButton !== "Home" ? "invisible" : ""}`}>
         <span>Gonzalo</span>
         <span>Molina</span>
         <span className="profession">Full Stack Developer</span>
