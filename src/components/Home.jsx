@@ -25,7 +25,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className="max-container">
       <Navbar setSelectedButton={changeComponent} setIsVisible={setIsVisible} />
       <div className="image-marcoD">
         <img src={marcoD} alt="marcoD" className="marcoD" />
