@@ -1,42 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/fondo.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
+@keyframes growText {
   from {
-    transform: rotate(0deg);
+    font-size: 0vw; /* Tamaño inicial */
   }
   to {
-    transform: rotate(360deg);
+    font-size: 7vw; /* Tamaño deseado */
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 
-.card {
-  padding: 2em;
+.nombre {
+  position: absolute;
+  top: 18.5vw;
+  left: 52.8vw;
+  transform: translate(-50%, -65%);
+  font-family: "sifonnbasic_outline";
+  text-align: center;
+  color: #885b38;
+  font-size: 7vw;
+  z-index: -1;
+  animation: growText 3s forwards;
 }
 
-.read-the-docs {
-  color: #888;
+.nombre span {
+  display: block;
+}
+
+.profession {
+  font-size: 30%;
+  color: black;
+}
+
+.invisible {
+  animation: fadeOut 1s forwards;
 }

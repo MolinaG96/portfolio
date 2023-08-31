@@ -1,0 +1,31 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIntoTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+}
+
+.father {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  animation: slideInFromTop 1s ease;
+}
+
+.father-exit {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  animation: slideIntoTop 1s ease;
+}

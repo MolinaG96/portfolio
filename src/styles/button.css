@@ -1,0 +1,27 @@
+.madera {
+  position: absolute;
+  top: -0.8vh;
+  width: 11.7vw;
+  height: auto;
+  z-index: 20;
+}
+
+.texto {
+  position: absolute;
+  top: 2.4vh;
+  margin: 0;
+  z-index: 100;
+  font-size: 2.3vw;
+  font-weight: bold;
+  color: #f4d79e;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.button-container.clicked .madera,
+.button-container.clicked .texto {
+  transform: scale(
+    0.8
+  ); /* Ajusta el valor para controlar el grado de achicamiento */
+  transition: transform 0.1s ease; /* Ajusta la duración de la animación según el valor en el componente */
+}
