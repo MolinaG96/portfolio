@@ -7,8 +7,6 @@ import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Contact } from "./Contact";
 import { Container } from "./Container";
-import marcoD from "../assets/marcoDE.png";
-import marcoT from "../assets/marcoTE.png";
 
 function Home() {
   const [selectedButton, setSelectedButton] = useState("Home");
@@ -25,13 +23,21 @@ function Home() {
   }
 
   return (
-    <div className="max-container">
+    <div>
       <Navbar setSelectedButton={changeComponent} setIsVisible={setIsVisible} />
       <div className="image-marcoD">
-        <img src={marcoD} alt="marcoD" className="marcoD" />
+        <img
+          src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463044/portfolio/more-img/marcoDE_wurru7.png"
+          alt="marcoD"
+          className="marcoD"
+        />
       </div>
       <div className="image-marcoT">
-        <img src={marcoT} alt="marcoT" className="marcoT" />
+        <img
+          src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463040/portfolio/more-img/marcoTE_hnq4pc.png"
+          alt="marcoT"
+          className="marcoT"
+        />
       </div>
       <h1 className={`nombre ${selectedButton !== "Home" ? "invisible" : ""}`}>
         <span>Gonzalo</span>

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/button.css";
-import madera from "../assets/boton-madera.png";
 
 const Button = ({ length, title, lengthText, setSelectedButton }) => {
   const [isClicked, setIsClicked] = useState(false);
@@ -21,7 +20,7 @@ const Button = ({ length, title, lengthText, setSelectedButton }) => {
       }}
     >
       <img
-        src={madera}
+        src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463087/portfolio/more-img/boton-madera_ifwihk.png"
         alt="Madera"
         className="madera"
         style={{ left: length }}
@@ -35,22 +34,6 @@ const Button = ({ length, title, lengthText, setSelectedButton }) => {
         {title}
       </p>
     </div>
-    // <div onClick={() => setSelectedButton(title)}>
-    //   <img
-    //     src={madera}
-    //     alt="Madera"
-    //     className="madera"
-    //     style={{ left: length }}
-    //   />
-    //   <p
-    //     className="texto"
-    //     style={{
-    //       left: lengthText,
-    //     }}
-    //   >
-    //     {title}
-    //   </p>
-    // </div>
   );
 };
 

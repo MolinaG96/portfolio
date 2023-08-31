@@ -9,10 +9,10 @@ body {
 
 @keyframes growText {
   from {
-    font-size: 0vw; /* Tamaño inicial */
+    font-size: 0vw;
   }
   to {
-    font-size: 7vw; /* Tamaño deseado */
+    font-size: 7vw;
   }
 }
 
@@ -49,8 +49,4 @@ body {
 
 .invisible {
   animation: fadeOut 1s forwards;
-}
-
-.max-container {
-  /* overflow: ; */
 }

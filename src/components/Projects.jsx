@@ -5,9 +5,6 @@ import "../styles/container.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MG from "../assets/mobile-gear.png";
-import inmobiliaria from "../assets/inmobiliaria.png";
-import delivery from "../assets/delivery.png";
 
 export const Projects = () => {
   const sliderSettings = {
@@ -28,21 +25,33 @@ export const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={MG} alt="MG" className="slider-image" />
+          <img
+            src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463035/portfolio/more-img/mobile-gear_z2ckvy.png"
+            alt="MG"
+            className="slider-image"
+          />
         </a>
         <a
           href="https://github.com/MolinaG96/proyecto-inmobiliaria-front"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={inmobiliaria} alt="inmobiliaria" className="slider-image" />
+          <img
+            src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463052/portfolio/more-img/inmobiliaria_g8tvig.png"
+            alt="inmobiliaria"
+            className="slider-image"
+          />
         </a>
         <a
           href="https://github.com/sheinken88/Fast-Delivery-Front"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={delivery} alt="delivery" className="slider-image" />
+          <img
+            src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463082/portfolio/more-img/delivery_qcttdu.png"
+            alt="delivery"
+            className="slider-image"
+          />
         </a>
       </Slider>
     </div>
