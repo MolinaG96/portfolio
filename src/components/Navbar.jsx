@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "../styles/navbar.css";
-import mano from "../assets/mano.png";
-import soga from "../assets/soga-nada-sinF.png";
 import Button from "../commons/button";
 
 const Navbar = ({ setSelectedButton, setIsVisible }) => {
@@ -15,8 +13,17 @@ const Navbar = ({ setSelectedButton, setIsVisible }) => {
 
   return (
     <div className={`navbar-container ${isNavbarHidden ? "hidden" : ""}`}>
-      <img src={mano} alt="Mano" className="mano" onClick={toggleNavbar} />
-      <img src={soga} alt="Soga" className="soga-top" />
+      <img
+        src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463048/portfolio/more-img/mano_j11bnb.png"
+        alt="Mano"
+        className="mano"
+        onClick={toggleNavbar}
+      />
+      <img
+        src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693462996/portfolio/more-img/soga-nada-sinF_azxb8m.png"
+        alt="Soga"
+        className="soga-top"
+      />
       <Button
         length={"10%"}
         title={"Home"}
@@ -47,7 +54,11 @@ const Navbar = ({ setSelectedButton, setIsVisible }) => {
         lengthText={"80.2%"}
         setSelectedButton={setSelectedButton}
       />
-      <img src={soga} alt="Soga" className="soga-bottom" />
+      <img
+        src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693462996/portfolio/more-img/soga-nada-sinF_azxb8m.png"
+        alt="Soga"
+        className="soga-bottom"
+      />
     </div>
   );
 };

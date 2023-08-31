@@ -2,11 +2,6 @@ import React from "react";
 import "../styles/contact.css";
 import "../styles/container.css";
 import Sign from "../commons/sign";
-import cv from "../assets/contact-imgs/CV.png";
-import gmail from "../assets/contact-imgs/gmail.png";
-import likedin from "../assets/contact-imgs/linkedin.png";
-import whatsapp from "../assets/contact-imgs/whatsapp.png";
-import github from "../assets/technologies/github.png";
 import Swal from "sweetalert2";
 
 export const Contact = () => {
@@ -68,12 +63,20 @@ export const Contact = () => {
           className="contact-img"
         >
           <div>
-            <img src={cv} alt="cv" className="image-c" />
+            <img
+              src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463097/portfolio/contact-img/CV_ngyata.png"
+              alt="cv"
+              className="image-c"
+            />
             <span className="text-cv">Resume</span>
           </div>
         </a>
         <div className="contact-img" onClick={handleAlert}>
-          <img src={gmail} alt="gmail" className="image-c" />
+          <img
+            src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463098/portfolio/contact-img/gmail_xncsgl.png"
+            alt="gmail"
+            className="image-c"
+          />
           <span className="text-gm">Gmail</span>
         </div>
         <a
@@ -83,7 +86,11 @@ export const Contact = () => {
           className="contact-img"
         >
           <div>
-            <img src={likedin} alt="linkedin" className="image-c" />
+            <img
+              src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463098/portfolio/contact-img/linkedin_fzgecd.png"
+              alt="linkedin"
+              className="image-c"
+            />
             <span className="text-lin">LinkedIn</span>
           </div>
         </a>
@@ -94,7 +101,11 @@ export const Contact = () => {
           className="contact-img"
         >
           <div>
-            <img src={whatsapp} alt="whatsapp" className="image-c" />
+            <img
+              src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463098/portfolio/contact-img/whatsapp_ql2nru.png"
+              alt="whatsapp"
+              className="image-c"
+            />
             <span className="text-sap">whatsapp</span>
           </div>
         </a>
@@ -105,7 +116,11 @@ export const Contact = () => {
           className="contact-img"
         >
           <div>
-            <img src={github} alt="github" className="image-c" />
+            <img
+              src="https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463146/portfolio/tecnologies/github_lmigux.png"
+              alt="github"
+              className="image-c"
+            />
             <span className="text-git">GitHub</span>
           </div>
         </a>

@@ -1,17 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./assets/fondo.png");
+  background-image: url("https://res.cloudinary.com/dqf9xgsfp/image/upload/v1693463078/portfolio/more-img/fondo_dmpptd.png");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 @keyframes growText {
   from {
-    font-size: 0vw; /* Tamaño inicial */
+    font-size: 0vw;
   }
   to {
-    font-size: 7vw; /* Tamaño deseado */
+    font-size: 7vw;
   }
 }
 
