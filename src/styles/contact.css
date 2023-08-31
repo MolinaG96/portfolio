@@ -12,3 +12,117 @@
   font-family: "Woodys", sans-serif;
   color: #451f0a;
 }
+
+.contact-img-container {
+  position: absolute;
+  left: 4.5vw;
+  top: 27.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.contact-img {
+  position: relative;
+  cursor: pointer;
+  margin-right: 2vw;
+  transition: transform 0.2s ease;
+}
+
+.contact-img:hover {
+  transform: scale(1.2);
+}
+
+.image-c {
+  max-width: 7vw;
+  cursor: pointer;
+}
+
+.text-cv {
+  position: absolute;
+  transform: translate(-5.9vw, 8.4vw);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3vw;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 1.2vw;
+}
+
+.contact-img:hover .text-cv {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-gm {
+  position: absolute;
+  transform: translate(-5.3vw, 7.2vw);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3vw;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 1.2vw;
+}
+
+.contact-img:hover .text-gm {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-lin {
+  position: absolute;
+  transform: translate(-5.9vw, 7.5vw);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3vw;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 1.2vw;
+}
+
+.contact-img:hover .text-lin {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-sap {
+  position: absolute;
+  transform: translate(-6vw, 7.5vw);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3vw;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 1.2vw;
+}
+
+.contact-img:hover .text-sap {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-git {
+  position: absolute;
+  transform: translate(-5.58vw, 7.2vw);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.3vw;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  font-size: 1.2vw;
+}
+
+.contact-img:hover .text-git {
+  opacity: 1;
+  visibility: visible;
+}

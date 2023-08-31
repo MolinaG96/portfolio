@@ -25,8 +25,8 @@
   display: flex;
   justify-content: flex-end;
   left: 0;
-  transition: left 0.3s ease-in-out;
-  /* animation: slideOutFromRight 1s forwards; */
+  /* transition: left 0.3s ease-in-out; */
+  transition: transform 0.3s ease-in-out;
 }
 
 .mano {
@@ -57,7 +57,6 @@
 }
 
 .navbar-container.hidden {
-  left: 75%;
-  /* animation: slideIntoRight 1s ease, slideOutFromRight 1s forwards; /* Cambiado a slideOutFromRight */
-  /* animation-direction: reverse; */
+  /* left: 75%; */
+  transform: translateX(90%);
 }
