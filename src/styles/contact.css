@@ -6,7 +6,7 @@
 .contact-div {
   position: absolute;
   left: 10.9vw;
-  top: 15vw;
+  top: 27vh;
   z-index: 30;
   font-size: 6vw;
   font-family: "Woodys", sans-serif;
@@ -16,7 +16,7 @@
 .contact-img-container {
   position: absolute;
   left: 4.5vw;
-  top: 27.5vw;
+  top: 49vh;
   display: flex;
   align-items: center;
 }
