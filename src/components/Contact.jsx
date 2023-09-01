@@ -57,7 +57,7 @@ export const Contact = () => {
       <div className="contact-div">Contact</div>
       <div className="contact-img-container">
         <a
-          href="https://www.canva.com/design/DAFtEpJseHE/vteCRE0_qoI0Zn1xnBFbuA/view?website#1:english"
+          href="https://www.canva.com/design/DAFtP6x7ciU/o4Ef53-rVZtFvJvNpzOEfA/view?website#1:espa-ol"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-img"
