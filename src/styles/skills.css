@@ -16,7 +16,7 @@
 /* aca empieza el back */
 
 .back-subtitle {
-  font-size: 3vw;
+  font-size: 4vmin;
   font-family: "Woodys", sans-serif;
   color: #451f0a;
 }
@@ -32,6 +32,7 @@
 
 .back-image {
   max-width: 3vw;
+  max-height: 5.4vh;
   margin: 0.4vh auto;
   position: relative;
   cursor: pointer;
@@ -39,6 +40,7 @@
 
 .back-image-jwt {
   max-width: 4vw;
+  max-height: 5.4vh;
   margin: auto;
   position: relative;
   cursor: pointer;
@@ -47,6 +49,11 @@
 .image-wrapper {
   position: relative;
   cursor: pointer;
+  width: 3vw;
+  height: 6.7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-text {
@@ -74,7 +81,7 @@
 /* aca empieza el front */
 
 .front-subtitle {
-  font-size: 3vw;
+  font-size: 4vmin;
   font-family: "Woodys", sans-serif;
   color: #451f0a;
 }
@@ -90,6 +97,7 @@
 
 .front-image {
   max-width: 3vw;
+  max-height: 6vh;
   margin: 1vh auto;
   position: relative;
   cursor: pointer;
@@ -99,6 +107,7 @@
 
 .image-wrapper-front {
   width: calc(50% - 0.1vw);
+  height: 7.9vh;
   margin: 0.4vh 0;
   display: flex;
   align-items: center;
@@ -207,7 +216,7 @@
 /* aca empieza Tools */
 
 .tools-subtitle {
-  font-size: 3vw;
+  font-size: 4vmin;
   font-family: "Woodys", sans-serif;
   color: #451f0a;
 }
@@ -223,6 +232,7 @@
 
 .tools-image {
   max-width: 3vw;
+  max-height: 5.4vh;
   margin: 1vh auto;
   position: relative;
   cursor: pointer;
@@ -230,6 +240,7 @@
 
 .image-wrapper-tool {
   width: calc(50% - 0.1vw);
+  height: 7vh;
   margin: 0.8vh 0;
   display: flex;
   align-items: center;
